@@ -1,0 +1,788 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navigation {
+  height: 210px;
+}
+#navigation .navbar-up {
+  background-color: #f15803;
+  height: 53px;
+}
+#navigation .navbar-up .navbar-up-left {
+  height: 53px;
+}
+#navigation .navbar-up .navbar-up-left ul {
+  display: flex;
+  list-style: none;
+  margin-top: 12px;
+}
+#navigation .navbar-up .navbar-up-left ul li {
+  color: white;
+  margin: 0px 15px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+#navigation .navbar-up .navbar-up-left ul li:hover {
+  color: rgb(200, 200, 200);
+}
+#navigation .navbar-up .navbar-up-right {
+  height: 53px;
+  display: flex;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-lang {
+  height: 40px;
+  width: 60px;
+  margin-top: 5px;
+  margin-left: 100px;
+  position: relative;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-lang img {
+  margin-top: 7px;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-lang h6 {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  top: 26%;
+  left: 32%;
+  color: white;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-credit {
+  height: 40px;
+  width: 130px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-credit i {
+  color: white;
+  margin-top: 10px;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-credit h6 {
+  font-size: 11px;
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-register {
+  height: 40px;
+  width: 120px;
+  margin-top: 5px;
+  margin-left: 16px;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-register i {
+  color: white;
+  margin-top: 10px;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-register h6 {
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 700;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-account {
+  height: 40px;
+  width: 120px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-account i {
+  color: white;
+  margin-top: 10px;
+}
+#navigation .navbar-up .navbar-up-right .navbar-up-right-account h6 {
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 700;
+}
+#navigation .navbar-middle {
+  height: 100px;
+}
+#navigation .navbar-middle .navbar-middle-logo {
+  height: 50px;
+  width: 240px;
+  background: url(../images/Music\ Gallery.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+#navigation .navbar-middle .navbar-middle-right {
+  display: flex;
+}
+#navigation .navbar-middle .navbar-middle-search {
+  height: 50px;
+  width: 260px;
+  margin-top: 32px;
+  margin-left: 30px;
+}
+#navigation .navbar-middle .navbar-middle-search .search {
+  height: 42px;
+  width: 230px;
+  padding: 5px 10px;
+  border: 1px solid #f15803;
+  font-weight: 600;
+}
+#navigation .navbar-middle .navbar-middle-contact {
+  height: 50px;
+  width: 200px;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+#navigation .navbar-middle .navbar-middle-contact h4 {
+  color: #f15803;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+#navigation .navbar-middle .navbar-middle-contact h6 {
+  font-size: 12px;
+  color: gray;
+  line-height: 0px;
+  font-family: "Roboto", sans-serif;
+}
+#navigation .navbar-middle .navbar-middle-icons {
+  height: 60px;
+  width: 230px;
+  margin-top: 20px;
+  margin-left: 60px;
+  display: flex;
+}
+#navigation .navbar-middle .navbar-middle-icons i {
+  background-color: #f15803;
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding-top: 13px;
+  padding-left: 11px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+#navigation .navbar-middle .navbar-middle-icons h6 {
+  color: #3a3a3a;
+  font-size: 14px;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+#navigation .navbar-down ul {
+  display: flex;
+  list-style: none;
+  margin-top: 18px;
+}
+#navigation .navbar-down ul li {
+  padding: 0px 24px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+#navigation .navbar-down ul li:hover {
+  color: #f15803;
+}
+
+#slide {
+  height: 540px;
+  background: url(../images/Xiaomi-Note-13-series-1920x700.png);
+  background-size: cover;
+}
+
+#brend {
+  height: 135px;
+  width: 1280px;
+  border: 1px solid gray;
+  margin-top: 100px;
+  display: flex;
+}
+#brend img {
+  padding: 20px 0px;
+  padding-left: 44px;
+  font-size: 20px;
+  opacity: 0.7;
+  transition: all 0.4s ease;
+}
+#brend img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#suggest {
+  height: 550px;
+}
+#suggest .suggest-left {
+  height: 500px;
+  border: 1px solid lightgray;
+  margin-top: 40px;
+  position: relative;
+}
+#suggest .suggest-left .suggest-left-icon {
+  display: inline;
+  margin-left: 797px;
+  border: 1px solid lightgray;
+  padding: 4px;
+}
+#suggest .suggest-left h3 {
+  color: rgb(84, 84, 84);
+  border: 1px solid lightgray;
+  font-size: 18px;
+  padding: 5px 0px 5px 10px;
+  font-weight: 700;
+}
+#suggest .suggest-left h3 i {
+  transition: all 0.1s ease;
+}
+#suggest .suggest-left h3 i:hover {
+  color: #f15803;
+  cursor: pointer;
+}
+#suggest .suggest-left img {
+  height: 320px;
+  margin-top: 27px;
+  cursor: pointer;
+}
+#suggest .suggest-left h4 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 25px;
+  position: absolute;
+  top: 15%;
+  left: 37%;
+}
+#suggest .suggest-left h5 {
+  display: inline-block;
+  font-weight: 600;
+  color: #f15803;
+  position: absolute;
+  top: 22%;
+  font-size: 25px;
+  left: 37%;
+}
+#suggest .suggest-left h6 {
+  display: inline-block;
+  position: absolute;
+  top: 24%;
+  font-size: 14px;
+  left: 48%;
+  color: #3a3a3a;
+  text-decoration: line-through;
+}
+#suggest .suggest-left .suggest-left-line {
+  height: 2px;
+  border-radius: 15px;
+  width: 570px;
+  background-color: lightgray;
+  position: absolute;
+  left: 37%;
+  top: 33%;
+}
+#suggest .suggest-right {
+  height: 503px;
+  margin-top: 37px;
+  background: url(../images/yayin-son-furseti-banner.png);
+  background-size: cover;
+  cursor: pointer;
+}
+
+#brends {
+  height: 770px;
+}
+#brends .brends-heading {
+  height: 50px;
+  border: 1px solid gray;
+  margin-top: 50px;
+  display: flex;
+}
+#brends .brends-heading ul {
+  display: flex;
+  margin-left: 300px;
+  list-style: none;
+}
+#brends .brends-heading ul li {
+  padding: 0px 18px;
+  margin: 0px 15px;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 18px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+#brends .brends-heading ul li:hover {
+  background-color: #f15803;
+  color: white;
+}
+#brends .brends-cart-one {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+}
+#brends .brends-cart-one .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/593914-87ae02c52727c1b08f5b24a0fe52a002-200x200.jpg);
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-one h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-one h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-one span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+#brends .brends-cart-two {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+}
+#brends .brends-cart-two .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/soyuducu.jpg);
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-two h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-two h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-two span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+#brends .brends-cart-three {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+}
+#brends .brends-cart-three .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/aspirator.jpg);
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-three h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-three h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-three span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+#brends .brends-cart-four {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+}
+#brends .brends-cart-four .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/airpods.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-four h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-four h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-four span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+#brends .brends-cart-five {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+}
+#brends .brends-cart-five .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/xbox.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-five h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-five h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-five span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+#brends .brends-cart-six {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+#brends .brends-cart-six .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/playsattion.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-six h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-six h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-six span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+#brends .brends-cart-seven {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+#brends .brends-cart-seven .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/sharppp.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-seven h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-seven h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-seven span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+@media screen and (max-width: 572px) {
+  #brends .brends-cart-one {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-two {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-three {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-four {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-five {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-six {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-seven {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-eight {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-nine {
+    height: 150px;
+    width: 150px;
+  }
+  #brends .brends-cart-ten {
+    height: 150px;
+    width: 150px;
+  }
+}
+#brends .brends-cart-eight {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+#brends .brends-cart-eight .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/logitech.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-eight h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-eight h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-eight span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+#brends .brends-cart-nine {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+#brends .brends-cart-nine .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/paltaryuyan.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-nine h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-nine h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-nine span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+#brends .brends-cart-ten {
+  height: 315px;
+  width: 250px;
+  margin-left: 13px;
+  margin-top: 10px;
+  position: relative;
+}
+#brends .brends-cart-ten .brends-cart-image {
+  height: 210px;
+  width: 210px;
+  background: url(../images/qulaqliq.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+#brends .brends-cart-ten h6 {
+  font-weight: 600;
+  align-items: center;
+}
+#brends .brends-cart-ten h4 {
+  color: #f15803;
+  padding-top: 2px;
+  display: inline;
+}
+#brends .brends-cart-ten span {
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+
+#description {
+  height: 320px;
+}
+#description .desc-left {
+  height: 250px;
+  background: url(../images/smartfonlara-0015-teklifi.png);
+  background-size: cover;
+  cursor: pointer;
+  margin-top: 35px;
+}
+#description .desc-right {
+  height: 250px;
+  background: url(../images/tv-3-ay-sonra-ode-2.png);
+  background-size: contain;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+#footing {
+  height: 550px;
+  background-color: #262626;
+}
+#footing .footer-one {
+  height: 300px;
+  margin-top: 20px;
+}
+#footing .footer-one h5 {
+  color: #c5c5c5;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+#footing .footer-one li {
+  color: #c5c5c5;
+  list-style: none;
+  padding: 4px 0px;
+  transition: all 0.4s ease;
+}
+#footing .footer-one li:hover {
+  color: #f15803;
+  margin-left: 14px;
+}
+#footing .footer-two {
+  height: 300px;
+  margin-top: 20px;
+}
+#footing .footer-two h5 {
+  color: #c5c5c5;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+#footing .footer-two li {
+  color: #c5c5c5;
+  list-style: none;
+  padding: 4px 0px;
+  transition: all 0.4s ease;
+}
+#footing .footer-two li:hover {
+  color: #f15803;
+  margin-left: 14px;
+}
+#footing .footer-three {
+  height: 300px;
+  margin-top: 20px;
+}
+#footing .footer-three h5 {
+  color: #c5c5c5;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+#footing .footer-three li {
+  color: #c5c5c5;
+  list-style: none;
+  padding: 4px 0px;
+  transition: all 0.4s ease;
+}
+#footing .footer-three li:hover {
+  color: #f15803;
+  margin-left: 14px;
+}
+#footing .footer-four {
+  height: 300px;
+  margin-top: 20px;
+}
+#footing .footer-four h5 {
+  color: #c5c5c5;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+#footing .footer-four li {
+  color: #c5c5c5;
+  list-style: none;
+  padding: 4px 0px;
+  transition: all 0.4s ease;
+}
+#footing .footer-four li:hover {
+  color: #f15803;
+  margin-left: 14px;
+}
+#footing .footer-five {
+  height: 320px;
+  margin-top: 20px;
+}
+#footing .footer-five h5 {
+  color: #c5c5c5;
+  font-size: 17px;
+  margin-bottom: 30px;
+  margin-left: 32px;
+}
+#footing .footer-five li {
+  color: #c5c5c5;
+  list-style: none;
+  padding: 4px 0px;
+}
+#footing .footer-five h4 {
+  color: #c5c5c5;
+  font-size: 17px;
+  margin-left: 32px;
+}
+#footing .footer-five .form {
+  margin-left: 32px;
+  padding: 5px 6px;
+}
+#footing .footer-five .buttons {
+  background-color: #f15803;
+  border: none;
+  padding: 7px 6px;
+  margin-top: -6px;
+  margin-left: -8px;
+}
+#footing .footer-line-one {
+  height: 1px;
+  width: 1280px;
+  background-color: #c5c5c5;
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+#footing h2 {
+  color: #c5c5c5;
+  font-size: 20px;
+  display: contents;
+}
+#footing i {
+  display: contents;
+  color: #3b5998;
+  font-size: 30px;
+}
+#footing .fa-square-whatsapp {
+  color: #04bd42;
+}
+#footing .fa-youtube {
+  color: #cc181e;
+}
+#footing .fa-square-instagram {
+  color: #c3602b;
+}
+#footing .footer-line-two {
+  height: 1px;
+  width: 1280px;
+  background-color: #c5c5c5;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}/*# sourceMappingURL=style.css.map */

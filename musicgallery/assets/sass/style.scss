@@ -1,0 +1,997 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navigation{
+    height: 210px;
+    // border: 1px solid black;
+
+    .navbar-up{
+        background-color: #f15803;
+        height: 53px;
+
+        .navbar-up-left{
+            height: 53px;
+            // border: 1px solid black;
+
+            ul{
+                display: flex;
+                list-style: none;
+                margin-top: 12px;
+
+                li{
+                    color: white;
+                    margin: 0px 15px;
+                    font-family: 'Roboto', sans-serif;
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+
+                    &:hover{
+                        color: rgb(200, 200, 200);
+                    }
+                }
+            }
+        }
+        .navbar-up-right{
+            height: 53px;
+            // border: 1px solid black;
+            display: flex;
+
+            .navbar-up-right-lang{
+                height: 40px;
+                width: 60px;
+                // border: 1px solid black;
+                margin-top: 5px;
+                margin-left: 100px;
+                position: relative;
+
+                img{
+                    margin-top: 7px;
+                }
+
+                h6{
+                    display: inline-block;
+                    font-size: 13px;
+                    font-weight: 700;
+                    position: absolute;
+                    top: 26%;
+                    left: 32%;
+                    color: white;
+
+                }
+            }
+
+            .navbar-up-right-credit{
+                height: 40px;
+                width: 130px;
+                // border: 1px solid black;
+                margin-top: 5px;
+                margin-left: 15px;
+
+                i{
+                    color: white;
+                    margin-top: 10px;
+                }
+
+                h6{
+                    font-size: 11px;
+                    display: inline-block;
+                    font-weight: 700;
+                    color: white;
+                    
+                }
+            }
+
+
+            .navbar-up-right-register{
+                height: 40px;
+                width: 120px;
+                // border: 1px solid black;
+                margin-top: 5px;
+                margin-left: 16px;
+
+
+                i{
+                    color: white;
+                    margin-top: 10px;
+                }
+
+                h6{
+                    color: white;
+                    font-size: 12px;
+                    display: inline-block;
+                    font-weight: 700;
+                }
+            }
+
+
+            .navbar-up-right-account{
+                height: 40px;
+                width: 120px;
+                // border: 1px solid black;
+                margin-top: 5px;
+                margin-left: 5px;
+
+                i{
+                    color: white;
+                    margin-top: 10px;
+                }
+
+                h6{
+                    color: white;
+                    font-size: 12px;
+                    display: inline-block;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+
+
+    .navbar-middle{
+        // border: 1px solid red;
+        height: 100px;
+        
+
+
+        .navbar-middle-logo{
+            height: 50px;
+            width: 240px;
+            // border: 1px solid black;
+            background: url(../images/Music\ Gallery.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+
+        .navbar-middle-right{
+            display: flex;
+        }
+
+        .navbar-middle-search{
+            height: 50px;
+            width: 260px;
+            // border: 1px solid black;
+            margin-top: 32px;
+            margin-left: 30px;
+
+            .search{
+                height: 42px;
+                width: 230px;
+                padding: 5px 10px;
+                border: 1px solid #f15803;
+                font-weight: 600;
+            }
+        }
+
+        .navbar-middle-contact{
+            height: 50px;
+            width: 200px;
+            // border: 1px solid black;
+            margin-top: 25px;
+            margin-left: 40px;
+
+            h4{
+                color: #f15803;
+                font-weight: 700;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            h6{
+                font-size: 12px;
+                color: gray;
+                line-height: 0px;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+
+        .navbar-middle-icons{
+            height: 60px;
+            width: 230px;
+            // border: 1px solid black;
+            margin-top: 20px;
+            margin-left: 60px;
+            display: flex;
+
+            i{
+                background-color: #f15803;
+                color: white;
+                height: 40px;
+                width: 40px;
+                padding-top: 13px;
+                padding-left: 11px;
+                margin-top: 5px;
+                margin-left: 7px;
+            }
+
+            h6{
+                color: #3a3a3a;;
+                font-size: 14px;
+                margin-top: 17px;
+                margin-left: 5px;
+               
+            }
+        }
+        
+    }
+
+    .navbar-down{
+        ul{
+            display: flex;
+            list-style: none;
+            margin-top: 18px;
+
+            li{
+                padding: 0px 24px;
+                cursor: pointer;
+                font-family: "Montserrat", sans-serif;
+                font-size: 13px;
+                transition: all 0.2s ease;
+                font-weight: 600;
+
+                &:hover{
+                    color: #f15803;
+                }
+            }
+        }
+    }
+}
+
+
+#slide{
+    height: 540px;
+    // border: 1px solid black;
+    background: url(../images/Xiaomi-Note-13-series-1920x700.png);
+    background-size: cover;
+}
+
+#brend{
+    height: 135px;
+    width: 1280px;
+    border: 1px solid gray;
+    margin-top: 100px;
+    display: flex;
+
+    img{
+        padding: 20px 0px;
+        padding-left: 44px;
+        font-size: 20px;
+        opacity: 0.7;
+        transition: all 0.4s ease;
+
+        &:hover{
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+#suggest{
+    height: 550px;
+    // border: 1px solid black;
+
+    .suggest-left{
+        height: 500px;
+        border: 1px solid lightgray;
+        margin-top: 40px;
+        position: relative;
+
+        .suggest-left-icon{
+            display: inline;
+            margin-left: 797px;
+            border: 1px solid lightgray;
+            padding: 4px;
+        }
+
+        h3{
+            color: rgb(84, 84, 84);
+            border: 1px solid lightgray;
+            font-size: 18px;
+            padding: 5px 0px 5px 10px;
+            font-weight: 700;
+
+            i{
+                transition: all 0.1s ease;
+                &:hover{
+                    color: #f15803;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        img{
+            height: 320px;
+            margin-top: 27px;
+            cursor: pointer;
+        }
+
+        h4{
+            display: inline-block;
+            font-weight: 600;
+            font-size: 25px;
+            position: absolute;
+            top: 15%;
+            left: 37%;
+        }
+
+        h5{
+            display: inline-block;
+            font-weight: 600;
+            color: #f15803;
+            position: absolute;
+            top: 22%;
+            font-size: 25px;
+            left: 37%;
+        }
+
+        h6{
+            display: inline-block;
+            position: absolute;
+            top: 24%;
+            font-size: 14px;
+            left: 48%;
+            color: #3a3a3a;
+            text-decoration: line-through;
+        }
+
+
+        .suggest-left-line{
+            height: 2px;
+            border-radius: 15px;
+            width: 570px;
+            background-color: lightgray;
+            position: absolute;
+            left: 37%;
+            top: 33%;
+        }
+    }
+
+    .suggest-right{
+        height: 503px;
+        // border: 1px solid black;
+        margin-top: 37px;
+        background: url(../images/yayin-son-furseti-banner.png);
+        background-size: cover;
+        cursor: pointer;
+    }
+}
+
+
+
+#brends{
+    height: 770px;
+    // border: 1px solid black;
+
+    .brends-heading{
+        height: 50px;
+        border: 1px solid gray;
+        margin-top: 50px;
+        display: flex;
+
+        ul{
+            display: flex;
+            margin-left: 300px;
+            list-style: none;
+            
+
+            li{
+                // border: 1px solid black;
+                padding: 0px 18px;
+                margin: 0px 15px;
+                text-decoration: underline;
+                font-weight: 700;
+                font-size: 18px;
+                transition: all 0.4s ease;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #f15803;
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+    .brends-cart-one{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/593914-87ae02c52727c1b08f5b24a0fe52a002-200x200.jpg);
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+    .brends-cart-two{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/soyuducu.jpg);
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+    .brends-cart-three{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/aspirator.jpg);
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+
+    .brends-cart-four{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/airpods.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+
+    .brends-cart-five{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/xbox.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+
+    .brends-cart-six{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+        margin-top: 10px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/playsattion.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+
+    .brends-cart-seven{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+        margin-top: 10px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/sharppp.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+    @media screen and (max-width: 572px) {
+        .brends-cart-one{
+            height: 150px;
+            width: 150px;
+        }
+        .brends-cart-two{
+            height: 150px;
+            width: 150px;
+        }.brends-cart-three{
+            height: 150px;
+            width: 150px;
+        }.brends-cart-four{
+            height: 150px;
+            width: 150px;
+        }.brends-cart-five{
+            height: 150px;
+            width: 150px;
+        }.brends-cart-six{
+            height: 150px;
+            width: 150px;
+        }.brends-cart-seven{
+            height: 150px;
+            width: 150px;
+        }.brends-cart-eight{
+            height: 150px;
+            width: 150px;
+        }.brends-cart-nine{
+            height: 150px;
+            width: 150px;
+        }.brends-cart-ten{
+            height: 150px;
+            width: 150px;
+        }
+      }
+
+
+    .brends-cart-eight{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+        margin-top: 10px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/logitech.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+
+    .brends-cart-nine{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+        margin-top: 10px;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/paltaryuyan.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+    }
+
+    .brends-cart-ten{
+        height: 315px;
+        width: 250px;
+        // border: 1px solid black;
+        margin-left: 13px;
+        margin-top: 10px;
+        position: relative;
+
+        .brends-cart-image{
+            height: 210px;
+            width: 210px;
+            // border: 1px solid black;
+            background: url(../images/qulaqliq.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: right;
+        }
+
+        h6{
+            font-weight: 600;
+            align-items: center;
+
+
+        }
+
+        h4{
+            color: #f15803;
+            padding-top: 2px;
+            display: inline;
+        }
+
+        span{
+            text-decoration: line-through;
+            margin-left: 15px;
+            
+        }
+
+    }   
+}
+
+
+#description{
+    height: 320px;
+    // border: 1px solid black;
+
+    .desc-left{
+        height: 250px;
+        // border: 1px solid black;
+        background: url(../images/smartfonlara-0015-teklifi.png);
+        background-size: cover;
+        cursor: pointer;
+        margin-top: 35px;
+    }
+
+    .desc-right{
+        height: 250px;
+        // border: 1px solid black;
+        background: url(../images/tv-3-ay-sonra-ode-2.png);
+        background-size: contain;
+        cursor: pointer;
+        margin-top: 35px;
+    }
+}
+
+
+#footing{
+    height: 550px;
+    background-color: #262626;
+
+
+    .footer-one{
+        height: 300px;
+        // border: 1px solid white;
+        margin-top: 20px;
+
+        h5{
+            color: #c5c5c5;
+            text-align: center;
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+        li{
+            color: #c5c5c5;
+            list-style: none;
+            padding: 4px 0px;
+            transition: all 0.4s ease;
+
+            &:hover{
+                color: #f15803;
+                margin-left: 14px;
+            }
+        }
+    }
+
+    .footer-two{
+        height: 300px;
+        // border: 1px solid white;
+        margin-top: 20px;
+
+        h5{
+            color: #c5c5c5;
+            text-align: center;
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+        li{
+            color: #c5c5c5;
+            list-style: none;
+            padding: 4px 0px;
+            transition: all 0.4s ease;
+
+            &:hover{
+                color: #f15803;
+                margin-left: 14px;
+            }
+        }
+    }
+
+    .footer-three{
+        height: 300px;
+        // border: 1px solid white;
+        margin-top: 20px;
+
+        h5{
+            color: #c5c5c5;
+            text-align: center;
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+        li{
+            color: #c5c5c5;
+            list-style: none;
+            padding: 4px 0px;
+            transition: all 0.4s ease;
+
+            &:hover{
+                color: #f15803;
+                margin-left: 14px;
+            }
+        }
+    }
+
+    .footer-four{
+        height: 300px;
+        // border: 1px solid white;
+        margin-top: 20px;
+
+
+        h5{
+            color: #c5c5c5;
+            text-align: center;
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+        li{
+            color: #c5c5c5;
+            list-style: none;
+            padding: 4px 0px;
+            transition: all 0.4s ease;
+
+            &:hover{
+                color: #f15803;
+                margin-left: 14px;
+            }
+        }
+    }
+
+
+    .footer-five{
+        height: 320px;
+        // border: 1px solid white;
+        margin-top: 20px;
+
+        h5{
+            color: #c5c5c5;
+            font-size: 17px;
+            margin-bottom: 30px;
+            margin-left: 32px;
+        }
+
+        li{
+            color: #c5c5c5;
+            list-style: none;
+            padding: 4px 0px;
+        }
+
+        h4{
+            color: #c5c5c5;
+            font-size: 17px;
+            margin-left: 32px;
+        }
+
+        .form{
+            margin-left: 32px;
+            padding: 5px 6px;
+        }
+
+        .buttons{
+            background-color: #f15803;
+            border: none;
+            padding: 7px 6px;
+            margin-top: -6px;
+            margin-left: -8px;
+        }
+    }
+
+
+    .footer-line-one{
+        height: 1px;
+        width: 1280px;
+        background-color: #c5c5c5;  
+        margin-top: 50px;
+        margin-bottom: 12px;
+    }
+
+    h2{
+        color: #c5c5c5;
+        font-size: 20px;
+        display: contents;
+    }
+
+    
+
+    i{
+        display: contents;
+        color: #3b5998;
+        font-size: 30px;
+    }
+
+    .fa-square-whatsapp{
+        color: #04bd42;
+    }
+
+    .fa-youtube{
+        color: #cc181e;
+    }
+    
+    .fa-square-instagram{
+        color: #c3602b;
+    }
+
+
+    .footer-line-two{
+        height: 1px;
+        width: 1280px;
+        background-color: #c5c5c5;  
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+}
+
+
